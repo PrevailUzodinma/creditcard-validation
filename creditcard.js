@@ -9,3 +9,5 @@ amexcard = /^3[4|7]\d{13}$/.test(input);
 discovercard = /^(6011\d{12}|65\d{14}|64[4-9]\d{13})$/.test(input);
 jcbcard = /^35\d{14}$/.test(input);
 dinerscard = /^3[6-8]\d{12}$/.test(input);
+unionpaycard = /^(62\d{14}|62\d{17})$/.test(input);
+verve = /^[56][0-9]\d{15}$/.test(input);
